@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA14848527008CAA0098D9DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14848427008CAA0098D9DE /* AppDelegate.m */; };
+		EA14848827008CAA0098D9DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14848727008CAA0098D9DE /* SceneDelegate.m */; };
+		EA14848B27008CAA0098D9DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14848A27008CAA0098D9DE /* ViewController.m */; };
+		EA14848E27008CAA0098D9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA14848C27008CAA0098D9DE /* Main.storyboard */; };
+		EA14849027008CAB0098D9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA14848F27008CAB0098D9DE /* Assets.xcassets */; };
+		EA14849327008CAB0098D9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA14849127008CAB0098D9DE /* LaunchScreen.storyboard */; };
+		EA14849627008CAB0098D9DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14849527008CAB0098D9DE /* main.m */; };
+		EA1484A027008CAC0098D9DE /* AnhFlixsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14849F27008CAC0098D9DE /* AnhFlixsterTests.m */; };
+		EA1484AB27008CAC0098D9DE /* AnhFlixsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1484AA27008CAC0098D9DE /* AnhFlixsterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA14849C27008CAC0098D9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA14847827008CAA0098D9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA14847F27008CAA0098D9DE;
+			remoteInfo = AnhFlixster;
+		};
+		EA1484A727008CAC0098D9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA14847827008CAA0098D9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA14847F27008CAA0098D9DE;
+			remoteInfo = AnhFlixster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA14848027008CAA0098D9DE /* AnhFlixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnhFlixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14848327008CAA0098D9DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA14848427008CAA0098D9DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA14848627008CAA0098D9DE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EA14848727008CAA0098D9DE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EA14848927008CAA0098D9DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA14848A27008CAA0098D9DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA14848D27008CAA0098D9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA14848F27008CAB0098D9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA14849227008CAB0098D9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA14849427008CAB0098D9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA14849527008CAB0098D9DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA14849B27008CAC0098D9DE /* AnhFlixsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnhFlixsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14849F27008CAC0098D9DE /* AnhFlixsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnhFlixsterTests.m; sourceTree = "<group>"; };
+		EA1484A127008CAC0098D9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1484A627008CAC0098D9DE /* AnhFlixsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnhFlixsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1484AA27008CAC0098D9DE /* AnhFlixsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnhFlixsterUITests.m; sourceTree = "<group>"; };
+		EA1484AC27008CAC0098D9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA14847D27008CAA0098D9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14849827008CAC0098D9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1484A327008CAC0098D9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA14847727008CAA0098D9DE = {
+			isa = PBXGroup;
+			children = (
+				EA14848227008CAA0098D9DE /* AnhFlixster */,
+				EA14849E27008CAC0098D9DE /* AnhFlixsterTests */,
+				EA1484A927008CAC0098D9DE /* AnhFlixsterUITests */,
+				EA14848127008CAA0098D9DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA14848127008CAA0098D9DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA14848027008CAA0098D9DE /* AnhFlixster.app */,
+				EA14849B27008CAC0098D9DE /* AnhFlixsterTests.xctest */,
+				EA1484A627008CAC0098D9DE /* AnhFlixsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA14848227008CAA0098D9DE /* AnhFlixster */ = {
+			isa = PBXGroup;
+			children = (
+				EA14848327008CAA0098D9DE /* AppDelegate.h */,
+				EA14848427008CAA0098D9DE /* AppDelegate.m */,
+				EA14848627008CAA0098D9DE /* SceneDelegate.h */,
+				EA14848727008CAA0098D9DE /* SceneDelegate.m */,
+				EA14848927008CAA0098D9DE /* ViewController.h */,
+				EA14848A27008CAA0098D9DE /* ViewController.m */,
+				EA14848C27008CAA0098D9DE /* Main.storyboard */,
+				EA14848F27008CAB0098D9DE /* Assets.xcassets */,
+				EA14849127008CAB0098D9DE /* LaunchScreen.storyboard */,
+				EA14849427008CAB0098D9DE /* Info.plist */,
+				EA14849527008CAB0098D9DE /* main.m */,
+			);
+			path = AnhFlixster;
+			sourceTree = "<group>";
+		};
+		EA14849E27008CAC0098D9DE /* AnhFlixsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA14849F27008CAC0098D9DE /* AnhFlixsterTests.m */,
+				EA1484A127008CAC0098D9DE /* Info.plist */,
+			);
+			path = AnhFlixsterTests;
+			sourceTree = "<group>";
+		};
+		EA1484A927008CAC0098D9DE /* AnhFlixsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1484AA27008CAC0098D9DE /* AnhFlixsterUITests.m */,
+				EA1484AC27008CAC0098D9DE /* Info.plist */,
+			);
+			path = AnhFlixsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA14847F27008CAA0098D9DE /* AnhFlixster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1484AF27008CAC0098D9DE /* Build configuration list for PBXNativeTarget "AnhFlixster" */;
+			buildPhases = (
+				EA14847C27008CAA0098D9DE /* Sources */,
+				EA14847D27008CAA0098D9DE /* Frameworks */,
+				EA14847E27008CAA0098D9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnhFlixster;
+			productName = AnhFlixster;
+			productReference = EA14848027008CAA0098D9DE /* AnhFlixster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA14849A27008CAC0098D9DE /* AnhFlixsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1484B227008CAC0098D9DE /* Build configuration list for PBXNativeTarget "AnhFlixsterTests" */;
+			buildPhases = (
+				EA14849727008CAC0098D9DE /* Sources */,
+				EA14849827008CAC0098D9DE /* Frameworks */,
+				EA14849927008CAC0098D9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA14849D27008CAC0098D9DE /* PBXTargetDependency */,
+			);
+			name = AnhFlixsterTests;
+			productName = AnhFlixsterTests;
+			productReference = EA14849B27008CAC0098D9DE /* AnhFlixsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA1484A527008CAC0098D9DE /* AnhFlixsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1484B527008CAC0098D9DE /* Build configuration list for PBXNativeTarget "AnhFlixsterUITests" */;
+			buildPhases = (
+				EA1484A227008CAC0098D9DE /* Sources */,
+				EA1484A327008CAC0098D9DE /* Frameworks */,
+				EA1484A427008CAC0098D9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1484A827008CAC0098D9DE /* PBXTargetDependency */,
+			);
+			name = AnhFlixsterUITests;
+			productName = AnhFlixsterUITests;
+			productReference = EA1484A627008CAC0098D9DE /* AnhFlixsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA14847827008CAA0098D9DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EA14847F27008CAA0098D9DE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EA14849A27008CAC0098D9DE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EA14847F27008CAA0098D9DE;
+					};
+					EA1484A527008CAC0098D9DE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EA14847F27008CAA0098D9DE;
+					};
+				};
+			};
+			buildConfigurationList = EA14847B27008CAA0098D9DE /* Build configuration list for PBXProject "AnhFlixster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA14847727008CAA0098D9DE;
+			productRefGroup = EA14848127008CAA0098D9DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA14847F27008CAA0098D9DE /* AnhFlixster */,
+				EA14849A27008CAC0098D9DE /* AnhFlixsterTests */,
+				EA1484A527008CAC0098D9DE /* AnhFlixsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA14847E27008CAA0098D9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14849327008CAB0098D9DE /* LaunchScreen.storyboard in Resources */,
+				EA14849027008CAB0098D9DE /* Assets.xcassets in Resources */,
+				EA14848E27008CAA0098D9DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14849927008CAC0098D9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1484A427008CAC0098D9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA14847C27008CAA0098D9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14848B27008CAA0098D9DE /* ViewController.m in Sources */,
+				EA14848527008CAA0098D9DE /* AppDelegate.m in Sources */,
+				EA14849627008CAB0098D9DE /* main.m in Sources */,
+				EA14848827008CAA0098D9DE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14849727008CAC0098D9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1484A027008CAC0098D9DE /* AnhFlixsterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1484A227008CAC0098D9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1484AB27008CAC0098D9DE /* AnhFlixsterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA14849D27008CAC0098D9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA14847F27008CAA0098D9DE /* AnhFlixster */;
+			targetProxy = EA14849C27008CAC0098D9DE /* PBXContainerItemProxy */;
+		};
+		EA1484A827008CAC0098D9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA14847F27008CAA0098D9DE /* AnhFlixster */;
+			targetProxy = EA1484A727008CAC0098D9DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA14848C27008CAA0098D9DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA14848D27008CAA0098D9DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA14849127008CAB0098D9DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA14849227008CAB0098D9DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1484AD27008CAC0098D9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA1484AE27008CAC0098D9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1484B027008CAC0098D9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKDDGM5MGD;
+				INFOPLIST_FILE = AnhFlixster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhmv09.AnhFlixster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA1484B127008CAC0098D9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKDDGM5MGD;
+				INFOPLIST_FILE = AnhFlixster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhmv09.AnhFlixster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA1484B327008CAC0098D9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKDDGM5MGD;
+				INFOPLIST_FILE = AnhFlixsterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhmv09.AnhFlixsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnhFlixster.app/AnhFlixster";
+			};
+			name = Debug;
+		};
+		EA1484B427008CAC0098D9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKDDGM5MGD;
+				INFOPLIST_FILE = AnhFlixsterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhmv09.AnhFlixsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnhFlixster.app/AnhFlixster";
+			};
+			name = Release;
+		};
+		EA1484B627008CAC0098D9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKDDGM5MGD;
+				INFOPLIST_FILE = AnhFlixsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhmv09.AnhFlixsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnhFlixster;
+			};
+			name = Debug;
+		};
+		EA1484B727008CAC0098D9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKDDGM5MGD;
+				INFOPLIST_FILE = AnhFlixsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhmv09.AnhFlixsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnhFlixster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA14847B27008CAA0098D9DE /* Build configuration list for PBXProject "AnhFlixster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1484AD27008CAC0098D9DE /* Debug */,
+				EA1484AE27008CAC0098D9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1484AF27008CAC0098D9DE /* Build configuration list for PBXNativeTarget "AnhFlixster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1484B027008CAC0098D9DE /* Debug */,
+				EA1484B127008CAC0098D9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1484B227008CAC0098D9DE /* Build configuration list for PBXNativeTarget "AnhFlixsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1484B327008CAC0098D9DE /* Debug */,
+				EA1484B427008CAC0098D9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1484B527008CAC0098D9DE /* Build configuration list for PBXNativeTarget "AnhFlixsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1484B627008CAC0098D9DE /* Debug */,
+				EA1484B727008CAC0098D9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA14847827008CAA0098D9DE /* Project object */;
+}
