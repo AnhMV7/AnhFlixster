@@ -41,4 +41,4 @@ Part developed in 4 hours
 
 ### App Walkthrough GIF
 
-<img src="Yhttp://g.recordit.co/wrd6fzMfrr.gif" width=250><br>
+<img src="http://g.recordit.co/wrd6fzMfrr.gif" width=250><br>
