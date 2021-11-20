@@ -10,6 +10,7 @@
 		04D4E7134CF8357D09198169 /* Pods_AnhFlixsterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70464982A65774EC73ABA5F6 /* Pods_AnhFlixsterTests.framework */; };
 		E5C6751829657C05B915ACFE /* Pods_AnhFlixster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A728F9253FB693D4D1306B /* Pods_AnhFlixster.framework */; };
 		EA0F3D422708517100FB9EF5 /* MovieGridDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0F3D412708517100FB9EF5 /* MovieGridDetailsViewController.swift */; };
+		EA0F3D44270BFF8000FB9EF5 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0F3D43270BFF8000FB9EF5 /* TrailerViewController.swift */; };
 		EA14848527008CAA0098D9DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14848427008CAA0098D9DE /* AppDelegate.m */; };
 		EA14848827008CAA0098D9DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14848727008CAA0098D9DE /* SceneDelegate.m */; };
 		EA14848B27008CAA0098D9DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA14848A27008CAA0098D9DE /* ViewController.m */; };
@@ -56,6 +57,7 @@
 		C0D8EEC08DE3D4FC2CFF38C3 /* Pods-AnhFlixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnhFlixster.debug.xcconfig"; path = "Target Support Files/Pods-AnhFlixster/Pods-AnhFlixster.debug.xcconfig"; sourceTree = "<group>"; };
 		D5A12886D495358B8781724B /* Pods_AnhFlixster_AnhFlixsterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnhFlixster_AnhFlixsterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0F3D412708517100FB9EF5 /* MovieGridDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridDetailsViewController.swift; sourceTree = "<group>"; };
+		EA0F3D43270BFF8000FB9EF5 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 		EA14848027008CAA0098D9DE /* AnhFlixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnhFlixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA14848327008CAA0098D9DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA14848427008CAA0098D9DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				EA4FA7B027044B2500B1CC10 /* MovieGridViewController.swift */,
 				EA4FA7B2270454C100B1CC10 /* MovieGridCell.swift */,
 				EA0F3D412708517100FB9EF5 /* MovieGridDetailsViewController.swift */,
+				EA0F3D43270BFF8000FB9EF5 /* TrailerViewController.swift */,
 			);
 			path = AnhFlixster;
 			sourceTree = "<group>";
@@ -448,6 +451,7 @@
 				EA14848B27008CAA0098D9DE /* ViewController.m in Sources */,
 				EACF279A27015AB900C040F3 /* MoviesViewController.swift in Sources */,
 				EACF279C27016E3E00C040F3 /* MovieCell.swift in Sources */,
+				EA0F3D44270BFF8000FB9EF5 /* TrailerViewController.swift in Sources */,
 				EA4FA7AF270439D600B1CC10 /* MovieDetailsViewController.swift in Sources */,
 				EA14848527008CAA0098D9DE /* AppDelegate.m in Sources */,
 				EA4FA7B127044B2500B1CC10 /* MovieGridViewController.swift in Sources */,
@@ -625,7 +629,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0D8EEC08DE3D4FC2CFF38C3 /* Pods-AnhFlixster.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = appIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AnhFlixster/AnhFlixster.entitlements;
@@ -650,7 +654,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98CFF749E28BEE09D596C26C /* Pods-AnhFlixster.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = appIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AnhFlixster/AnhFlixster.entitlements;
