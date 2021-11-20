@@ -28,7 +28,12 @@ App Viewed on iPhone 8
 
 App Viewed on iPhone 13 Max
 
-App ran on a real device
+<img src="http://g.recordit.co/PDNQlsX0UR.gif" width=250><br>
+
+
+
+
+
 
 
 ### Notes
