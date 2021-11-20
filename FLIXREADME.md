@@ -32,7 +32,7 @@ App Viewed on iPhone 13 Max
 
 App ran on real device
 
-<img src="https://imgur.com/LsX9gcI.mp4" width=250><br>
+<img src="https://imgur.com/NkOjIWw.gif" width=250><br>
 
 
 
