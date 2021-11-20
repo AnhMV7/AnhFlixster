@@ -30,6 +30,10 @@ App Viewed on iPhone 13 Max
 
 <img src="http://g.recordit.co/P8E2816jK6.gif" width=250><br>
 
+App ran on real device
+
+<img src="https://imgur.com/VGIMxii.mp4" width=250><br>
+
 
 
 
