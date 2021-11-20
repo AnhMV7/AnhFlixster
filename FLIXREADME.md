@@ -28,7 +28,7 @@ App Viewed on iPhone 8
 
 App Viewed on iPhone 13 Max
 
-<img src="http://g.recordit.co/PDNQlsX0UR.gif" width=250><br>
+<img src="http://g.recordit.co/P8E2816jK6.gif" width=250><br>
 
 
 
