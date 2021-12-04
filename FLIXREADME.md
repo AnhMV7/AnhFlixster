@@ -35,10 +35,24 @@ App ran on real device
 <img src="https://imgur.com/NkOjIWw.gif" width=250><br>
 
 
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+
+#### BONUS
+- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+
+
+### App Walkthrough GIF
+
+<img src="http://g.recordit.co/WKqJjc879L.gif" width=250><br>
 
 
 
 
 
-### Notes
-Describe any challenges encountered while building the app.
+
