@@ -17,11 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="fGQ-Qb-1mf">
-                                <rect key="frame" x="144" y="251" width="138" height="139"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="fGQ-Qb-1mf">
+                                <rect key="frame" x="41" y="140" width="332" height="319"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmy-4h-k8h">
-                                <rect key="frame" x="176" y="438" width="74" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmy-4h-k8h">
+                                <rect key="frame" x="106" y="510" width="236" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -29,16 +31,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mmy-4h-k8h" secondAttribute="trailing" constant="164" id="8ST-53-cbH"/>
-                            <constraint firstItem="fGQ-Qb-1mf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="144" id="CmK-IQ-zFG"/>
-                            <constraint firstItem="Mmy-4h-k8h" firstAttribute="top" secondItem="fGQ-Qb-1mf" secondAttribute="bottom" constant="48" id="DAQ-zS-fuc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fGQ-Qb-1mf" secondAttribute="trailing" constant="132" id="H1d-gq-DFj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mmy-4h-k8h" secondAttribute="bottom" constant="371" id="J4d-vD-2dA"/>
-                            <constraint firstItem="Mmy-4h-k8h" firstAttribute="top" secondItem="fGQ-Qb-1mf" secondAttribute="bottom" constant="48" id="nSr-Oc-wnE"/>
-                            <constraint firstItem="Mmy-4h-k8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="176" id="xeC-x3-4CH"/>
-                            <constraint firstItem="fGQ-Qb-1mf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="207" id="zFy-00-Prt"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
